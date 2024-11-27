@@ -49,12 +49,14 @@ nav{
 .slider{
     background-image: url(img/nordwood-themes-9a58YsGiTPk-unsplash.jpg); 
     height: 110vh;
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    overflow: hidden;
    
 }
 .sliderWrapper{
     display: flex;
     width: 550vw;
+    transition: all 1s ease-in-out;
 }
 .sliderItem{
 width: 100%;
@@ -63,6 +65,8 @@ align-items: center;
 justify-content: center;
 margin-top: 10px;
 position: relative;
+tra
+
 }
 .sliderItem img{
     margin-left: -250px;
